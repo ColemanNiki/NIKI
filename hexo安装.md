@@ -13,14 +13,14 @@ tags:
 `cd hexo`
 
 ### 安装依赖项
-```
+``` bash
 npm uninstall --save hexo-generator-category # 此处我们使用 hexo-generator-category-enhance
 npm install --save hexo-renderer-pug hexo-generator-archive hexo-generator-category-enhance hexo-generator-feed hexo-generator-tag
 npm install --save hexo-prism-plugin # 语法高亮支持
 ```
 
 ### 安装主题
-```
+``` bash
 cd themes
 git clone https://ghproxy.com/https://github.com/SumiMakito/hexo-theme-typography # 这里使用ghproxy 加快github速度
 mv hexo-theme-typography typography
@@ -29,7 +29,7 @@ npm install
 
 ### 修改配置文件
 对根目录下的主配置文件 _config.yml 进行响应的改动
-```
+``` yml
 theme: typography
 
 highlight:
