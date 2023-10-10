@@ -2,6 +2,7 @@
 title: Hexo安装
 date: 2023-10-10 21:00:00
 tags:
+  - 博客
 ---
 
 # hexo安装流程
@@ -10,7 +11,9 @@ tags:
 > https://github.com/SumiMakito/hexo-theme-typography
 
 ### 进入根目录
-`cd hexo`
+``` bash
+cd hexo
+```
 
 ### 安装依赖项
 ``` bash
