@@ -1,5 +1,5 @@
 ---
-title: hexo安装.md
+title: Hexo安装
 date: 2023-10-10 21:00:00
 tags:
 ---
