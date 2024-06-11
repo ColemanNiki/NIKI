@@ -22,14 +22,6 @@ npm install --save hexo-renderer-pug hexo-generator-archive hexo-generator-categ
 npm install --save hexo-prism-plugin # 语法高亮支持
 ```
 
-### 安装主题
-``` bash
-cd themes
-git clone https://ghproxy.com/https://github.com/SumiMakito/hexo-theme-typography # 这里使用ghproxy 加快github速度
-mv hexo-theme-typography typography
-npm install
-```
-
 ### 修改配置文件
 对根目录下的主配置文件 _config.yml 进行响应的改动
 ``` yml
@@ -76,3 +68,5 @@ prism_plugin:
   theme: 'default'
   line_number: true 
 ```
+
+# 现在就可以有一个比较简陋的框架了，之后就是根据自己的审美修改样式了
