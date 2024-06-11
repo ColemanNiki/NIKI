@@ -7,9 +7,6 @@ tags:
 
 # hexo安装流程
 
-## 主题安装
-> https://github.com/SumiMakito/hexo-theme-typography
-
 ### 进入根目录
 ``` bash
 cd hexo
